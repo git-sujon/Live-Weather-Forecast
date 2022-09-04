@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Live Weather Forecast</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- favIcon  -->
+    <link rel="shortcut icon" href="./images/sea-shore-sunset-bk.jpg" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="col-md-6 m-auto py-4">
+            <div class="input-group mb-3">
+                <input id="search-input-id" type="text" class="form-control" placeholder="Enter a location for Weather ...">
+                <div class="input-group-append">
+                    <button id="search-btn-id" type="button" class="btn btn-danger">Search</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="weather-status text-white text-center">
+            <img src="https://openweathermap.org/img/wn/02d@2x.png" alt="">
+            <h1 class="text-secondary"><span id="city-id" class="text-white text-capitalize">Comilla</span></h1>
+            <h3><span id="temp-holder-id"></span>&deg;C</h3>
+            <ul class="list-unstyled">
+                <li  class="lead">Weather: <span id="weather"></span></li>
+                <li  class="lead">Precipitation: <span id="precipitation"></span> %</li>
+                <li  class="lead">Feels Like: <span id="feels-like"></span></li>
+
+                <li  class="lead">Humidity: <span id="humidity"></span> %</li>
+
+                <li  class="lead">Pressure: <span id="pressure"></span> mbar</li>
+
+                <li  class="lead">Wind Speed: <span id="wind-speed"></span> km/h</li>
+                <li  class="lead">Sunrise: <span id="sunrise"></span></li>
+                <li  class="lead">Sunset: <span id="sunset"></span></li>
+
+
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <small class="text-warning fw-bolder text-center d-block">*** Sunset and Sunrise: Minus(-) 6 hours for outside of BD</small>
+    </footer>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

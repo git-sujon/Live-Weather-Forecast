@@ -1,0 +1,10 @@
+body {
+    background:url(../images/sea-shore-sunset-bk.jpg) rgba(10, 10, 10, 0.3);
+    background-size: cover;
+    background-blend-mode:multiply;
+    height: 100vh;
+}
+
+footer {
+    background: #000;
+}
